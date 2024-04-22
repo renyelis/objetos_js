@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Obtener un elemento por su ID
+var elementById = document.getElementById('miElemento');
+
+// Obtener elementos por su etiqueta
+var elementsByTagName = document.getElementsByTagName('p');
+
+// Crear un nuevo elemento
+var newElement = document.createElement('div');
+newElement.textContent = 'Nuevo elemento creado';
+
+// Cambiar el contenido HTML de un elemento
+elementById.innerHTML = 'Contenido modificado';
+
+// Agregar un evento a un elemento
+elementById.addEventListener('click', function() {
+  alert('¡Has hecho clic en el elemento!');
+});
+
+    </script>
+    
+
+</body>
+</html>

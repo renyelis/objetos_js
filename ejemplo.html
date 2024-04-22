@@ -1,33 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>CodingTube</title>
 </head>
 <body>
-    <script>
-// Obtener un elemento por su ID
-var elementById = document.getElementById('miElemento');
+  <h1>Manipulando el DOM</h1>
+  <h2>Curso Javascript</h2>
 
-// Obtener elementos por su etiqueta
-var elementsByTagName = document.getElementsByTagName('p');
+  <p class="parrafos" id="parrafo1">Párrafo 1</p>
+  <p class="parrafos" id="parrafo2">Párrafo 2</p>
+  <p class="parrafos" id="parrafo3">Párrafo 3</p>
 
-// Crear un nuevo elemento
-var newElement = document.createElement('div');
-newElement.textContent = 'Nuevo elemento creado';
-
-// Cambiar el contenido HTML de un elemento
-elementById.innerHTML = 'Contenido modificado';
-
-// Agregar un evento a un elemento
-elementById.addEventListener('click', function() {
-  alert('¡Has hecho clic en el elemento!');
-});
-
-    </script>
-    
-
+  <script src="main.js"></script>
 </body>
 </html>
